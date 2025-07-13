@@ -29,8 +29,12 @@ This is a Bash script that converts various video file formats (e.g., `.avi`, `.
       ```
     - On Windows:  
       Download FFmpeg from [here](https://ffmpeg.org/download.html) and follow the instructions to set it up.
+- Recommended installation approach
+    ```bash
+        curl -fsSL https://kanishkk.me/video2mp4 | bash
+    ```
 
-2. Download the script from this repository and make it executable:
+- Manual installation: Download the script from this repository and make it executable:
     ```bash
     chmod +x video2mp4.sh
     ```
